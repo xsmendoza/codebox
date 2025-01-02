@@ -1,0 +1,268 @@
+.article__tt {
+  width: 60%;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.article__border {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.article__border h2 {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.article__border p {
+  font-size: 15px;
+}
+
+/* Estructura de la sección de artículos */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  gap: 1rem;
+  margin: 2rem;
+}
+
+/* Diseño de las tarjetas */
+.card {
+  padding: 8px;
+  width: 240px; /* Ajuste de tamaño */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  border-radius: 8px;
+  overflow: hidden; /* Aseguramos que las tarjetas no se desborden */
+}
+
+/* Contenedor de imagen y fecha */
+.karylucio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+/* Estilos de las imagenes */
+.image {
+  width: 100%;
+  height: 120px;
+  /*background-color: rgb(205, 235, 255);*/
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT6eqRKmG569JOa78CPudEzSPJZj_cN8cfqbrmkIiNK8rzBfmXLT_9HqpRAUgvnw9UzEVhyphenhyphenPbWSniA29hF0KmiO_E7VfiHKFAgFPj6lC1YSYBI0K2KBVIT7jDfAUZv-AvJ1DsT3CcubYutRlR-2qFlGWj_NRNEV2hxYicF5p0pRfEm1N4xj5-517BIDsg/s1280/Miniatura%20de%20YouTube%20Academia%20Danza%20Elegante%20Blanco.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.image2 {
+  width: 100%;
+  height: 120px;
+  /*background-color: rgb(205, 235, 255);*/
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuam7bBd3izUGs9fuguUZC1aeArC5pK2RcbMXU_R_aW0fv3ogCKE27uRnBwhXvEspZ0aXiR0-KyKSZGdYx8p39tYh0ht3EttR4VzOUjNoemKhDww9CC-KJ8B1NU9E5jTA1XgNYC0fQofT9mdf6NHvSX8hxG4TRc9TKlCCXhkslk4j1SWvLj9PoCL3S71Q/s1280/Miniatura%20de%20YouTube%20Academia%20Danza%20Elegante%20Blanco.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.image3 {
+  width: 100%;
+  height: 120px;
+  /*background-color: rgb(205, 235, 255);*/
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjwn0LVLXPV_so10qSz2zJRlApR89mTPkWgqycS56THMBRTgkU-CFKrCEnbvs7nzlntqq8vPZQ5kFNTOsdpqBV0Qr_guUDu0qTjSC56zETn7PtDx9Al8WE-PgBTiwE6GHM80vVMdnJVMvPlo-dZ1c8Kiff8wJLhNMAFDiz3HrtinkGYv7nUVJbOznu9T4/s1280/Miniatura%20de%20YouTube%20Academia%20Danza%20Elegante%20Blanco.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.image4 {
+  width: 100%;
+  height: 120px;
+  /*background-color: rgb(205, 235, 255);*/
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIBdX74FUPWryQfRHYBBEjGgo7uLZiQ5hzJC3n95FGDRNHOwvPK-MOmDv2C9ajXt_NGMDyEdlWug4sh7rs77z3JeUvuw4y0wml9HMFxvmfHFatUiui2gTbFZdg7_ZIkSeAT9-8Z2Q_9FsEroayRHEA7bKesYxCFus3JYbu3R0PhDeKecBWu4dRue_PZLA/s1200/IMG_0531.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.image5 {
+  width: 100%;
+  height: 120px;
+  /*background-color: rgb(205, 235, 255);*/
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFj6Mq84suz7NHIlo6vNuTrV1repnBBjZXKjt95-byHsfoXHhj6VC-QEMOU23UHAn_nAR4GkKDlgfyQKR3bh1Pps9SgYUqcTFRQq_09KWhPECvaZYHTsh1G3K2xJOiW7lWw6bVTnI1d-N7tUb72OGf3hQO5Vks_jVvU8qV7fuMSi3HvH5WRZoDcWw8wUY/s700/IMG_0495.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.image6 {
+  width: 100%;
+  height: 120px;
+  /*background-color: rgb(205, 235, 255);*/
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhLbo6W_RNgf5t90ifsWDio0x-QRJE-AEEaq22Q8i-rUUx-iMoKwK7u6hiEZxBiRQ32nroSrV8ALCX2F8GH_nFlBXjm7Y0P3bZTCvrYHMIlHF2Ft4bn4qkLFTGd8cFRRhCL48NsavXWMH2SrxxDeAttUgSt2qf6ShxlLOjY6HjAkNMuXNJeHDr_S8dE40/s6000/kamil-s-SuPAbuuK7f4-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+
+/* Estilo de las imagenes finalizado */
+
+/* Etiqueta sobre la imagen */
+.tag {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+/* Estilo de la fecha */
+.date {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: left;
+}
+
+/* Información y texto de la tarjeta */
+.info {
+  margin-top: 0.5rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  padding-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+/* Acciones de la tarjeta (iconos y números) */
+.article-actions {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+}
+
+.article-actions button {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.article-actions button i {
+  margin-right: 5px;
+}
+
+.article-actions button:hover {
+  color: #007bff;
+}
+
+/* Estilo para los iconos y números de acciones */
+.article-actions i {
+  font-size: 1rem;
+}
+
+.article-actions span {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  color: #555;
+}
+
+/* Estilos para la visualización en dispositivos móviles */
+@media (max-width: 1024px) {
+  .articles-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 tarjetas por fila */
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 180px); /* 2 tarjetas por fila en móvil */
+    gap: 1rem;
+    margin-left: 2%;
+  }
+
+  .card {
+    width: 180px;
+  }
+  
+  .image {
+    height: 100px; /* Reducido para móvil */
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.75rem;
+  }
+
+  .article-actions button {
+    font-size: 0.75rem;
+  }
+
+  .article-actions i {
+    font-size: 0.85rem;
+  }
+
+  .article-actions span {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .description {
+    font-size: 0.7rem;
+  }
+}
